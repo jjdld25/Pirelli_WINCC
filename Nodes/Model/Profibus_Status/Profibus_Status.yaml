@@ -1,0 +1,22 @@
+Name: Profibus Status
+Type: FolderType
+Children:
+- Name: SelectedCode
+  Id: g=296fd5b70183bee91c76a29cf64e3ce3
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SelectedText
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "hola "
+- Name: Device_518500
+  Type: BaseObjectType
+  Children:
+  - Name: Code
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 518500
+  - Name: Texto
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "5185A0 - Cabinet Internal Input/Output"

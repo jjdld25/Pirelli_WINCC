@@ -1,0 +1,18 @@
+Name: TagImporter
+Type: S7TagImporter
+OwnerId: ns=2;g=825407cb55021d88dd92a3cd57a47fd5
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/JJDiaz/Pirelli/Respaldo TIA Portal 28 jun/SW0537m_TR20_LAST_BM_JJDiazOK24jun/SW0537m_TR20_LAST_BM_JJDiazOK24jun.ap15_1"
