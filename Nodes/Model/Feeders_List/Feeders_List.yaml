@@ -1,0 +1,143 @@
+Name: Feeders List
+Id: g=1a7b4ddd8ad55d2943928f9240de70ee
+Type: FolderType
+Children:
+- Name: Feeder1
+  Id: g=37c342c9dc81f7e1815bbeec27098ffc
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Barcode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: BomCheckStatus
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: WorkMode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Feeder2
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Barcode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: BomCheckStatus
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: WorkMode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Feeder3
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Barcode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: BomCheckStatus
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: WorkMode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Feeder4
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Barcode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: BomCheckStatus
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: WorkMode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Feeder5
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Barcode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: BomCheckStatus
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: WorkMode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Feeder6
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Barcode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: BomCheckStatus
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: WorkMode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

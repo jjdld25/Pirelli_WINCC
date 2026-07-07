@@ -39,15 +39,15 @@ Project:
    Module: FTOptix.S7TCP
    Version: 1.0
  Statistics:
-  TotalNodeCount: 488164
-  Objects: 357
+  TotalNodeCount: 488203
+  Objects: 363
   ObjectTypes: 10
-  Variables: 487797
+  Variables: 487830
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 8
+  References: 9
   ReferenceTypes: 0
-  Files: 28
+  Files: 29
  Nodes:
  - File: Nodes/Pirelli_WINCC.yaml

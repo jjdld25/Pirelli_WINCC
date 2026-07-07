@@ -2,3 +2,4 @@ Name: Model
 Type: ModelCategoryFolder
 Children:
 - File: Profibus_Status/Profibus_Status.yaml
+- File: Feeders_List/Feeders_List.yaml
