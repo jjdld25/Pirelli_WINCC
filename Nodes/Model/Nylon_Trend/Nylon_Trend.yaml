@@ -1,0 +1,42 @@
+Name: Nylon Trend
+Type: FolderType
+Children:
+- Name: Setpoint_Roller
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/AuxFunct\\TrendsNylon\\Speed_Setpoint_Roller"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Tension Actual
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/AuxFunct\\TrendsNylon\\US_DB_G63&.Nylon_Tension_Actual"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Tension Setpoint
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/S7TCPDriver1/S7TCPStation1/Tags/AuxFunct\\TrendsNylon\\US_DB_G63&.Nylon_Tension_Setpoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

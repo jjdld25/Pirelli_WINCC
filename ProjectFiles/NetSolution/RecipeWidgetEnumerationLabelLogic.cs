@@ -16,6 +16,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Recipe;
 using FTOptix.RecipeX;
 using FTOptix.Store;
+using FTOptix.DataLogger;
 #endregion
 
 public class RecipeWidgetEnumerationLabelLogic : BaseNetLogic
