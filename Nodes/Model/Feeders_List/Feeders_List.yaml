@@ -9,46 +9,50 @@ Children:
   - Name: Name
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "feeder1"
   - Name: Status
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "ready"
   - Name: Barcode
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "0000000000001"
   - Name: BomCheckStatus
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "sdf"
   - Name: WorkMode
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "rter"
+  - Name: DatasetCode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ejem"
 - Name: Feeder2
   Type: BaseObjectType
   Children:
   - Name: Name
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "dcvzx"
   - Name: Status
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "dfa"
   - Name: Barcode
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "cxv"
   - Name: BomCheckStatus
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "asdf"
   - Name: WorkMode
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "dgh"
 - Name: Feeder3
   Type: BaseObjectType
   Children:

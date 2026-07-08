@@ -1,0 +1,52 @@
+Name: Recetas
+Id: g=628f61f74c5771bd07fdc4d89836846e
+Type: FolderType
+Children:
+- Name: AuxDrumDiameter
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Belt1Width
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Belt2Width
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: LeftSidewallsBransonAmplitude
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: RightSidewallsBransonAmplitude
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: TreadBransonAmplitude
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: GreenCoverDischargeCycle
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: HighGreenTyreWeight
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: LowGreenTyreWeight
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: ShouldersCoverLoadPosition
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: ShouldersCoverCatchingPosition
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: ShouldersCoverShapingPosition
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: ShouldersCover2ndShapingPosition
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: TransferSikoSetting
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: TyreUnloaderSikoSetting
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: TransferSectorsHeight
+  Type: BaseDataVariableType
+  DataType: Int32

@@ -1,0 +1,4 @@
+Name: Recetas
+Type: FolderType
+Children:
+- File: RecipesEditor/RecipesEditor.yaml
