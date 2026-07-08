@@ -292,7 +292,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Pirelli_WINCC/UI/Screens/Screen1"
+          Value: "/Objects/Pirelli_WINCC/UI/Screens/Main"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -379,21 +379,6 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: Panel7
-        Type: NavigationPanelItem
-        Children:
-        - Name: Title
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Value: "/Objects/Pirelli_WINCC/UI/Screens/Recipes"
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel8
         Type: NavigationPanelItem
         Children:
@@ -404,6 +389,21 @@ Children:
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/Pirelli_WINCC/UI/Screens/Safety"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel9
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Pirelli_WINCC/UI/Screens/AUX_FUNCTION"
           Children:
           - Name: Kind
             Type: PropertyType
