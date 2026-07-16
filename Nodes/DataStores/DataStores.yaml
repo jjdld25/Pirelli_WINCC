@@ -342,6 +342,10 @@ Children:
         - Name: Tension Setpoint
           Type: StoreColumn
           DataType: Float
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1000
   - Class: Reference
     Target: ns=23;i=30
     Direction: Forward

@@ -1,7 +1,7 @@
 Name: Screens
 Type: ScreensCategoryFolder
 Children:
-- Name: Main
+- Name: MAIN
   Id: g=c8087ccfa48b3cdfd1dce19099c5d1cc
   Supertype: Screen
   ReferenceType: HasComponent
@@ -43,7 +43,7 @@ Children:
       DataType: ResourceUri
       ModellingRule: Optional
       Value: "ns=7;%PROJECTDIR%/logo-pirelli_256.bmp"
-- Name: Belts_Application
+- Name: BELTS_APP
   Id: g=ed34ab019c9f12936792e5263d2cf646
   Supertype: Panel
   ReferenceType: HasComponent
@@ -2770,7 +2770,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 150.0
-- Name: Tread_Nylon
+- Name: TREAD_NYLON
   Id: g=f2b1ba327ca517e7bd735e0220481136
   Supertype: Panel
   ReferenceType: HasComponent
@@ -6662,7 +6662,7 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-- Name: PROFIBUS_status
+- Name: PROFIBUS
   Id: g=2aed2f1b3057f36420a0065ebdf242cf
   Supertype: Screen
   ReferenceType: HasComponent
@@ -6994,7 +6994,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-- Name: Transfer_TyreLoader
+- Name: TRANSFER_TYRE
   Id: g=79406e0e6cbd4c3a28e3cda9b30dcbfa
   Supertype: Screen
   ReferenceType: HasComponent
@@ -10974,7 +10974,7 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 28.0
-- Name: BOM_Check
+- Name: BOM_CHECK
   Id: g=37e85e2746b4e5a66eca9768c3c471b8
   Supertype: Screen
   ReferenceType: HasComponent
@@ -11062,6 +11062,7 @@ Children:
     - Name: Query
       Type: BaseDataVariableType
       DataType: String
+      Value: "SELECT * FROM Model"
     - Name: Columns
       Type: BaseObjectType
       Children:
@@ -11294,63 +11295,102 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 900.0
-  - Name: Label1
-    Type: Label
+  - Name: PanelFeeder
+    Type: Panel
     Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"ManualConstructor"}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 160.0
+      Value: 270.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 250.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 670.0
+      Value: 930.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
-  - Name: Label2
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label2"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 880.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 610.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 150.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-- Name: Safety
+      Value: 420.0
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 270.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 250.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../DataGrid1/UISelectedItem/Name"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 80.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+    - Name: AliasSelectedFeeder
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Objects/Pirelli_WINCC/Model/Feeders List/Feeder1"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../DataGrid1/UISelectedItem@Pointer"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+- Name: SAFETIES
   Id: g=2c4fdc5d0163e8b34efc76fcfa1bbbb1
   Supertype: Panel
   ReferenceType: HasComponent
@@ -11661,7 +11701,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-              Value: "/Objects/Pirelli_WINCC/UI/Screens/TRENDS_NYLON"
+              Value: "/Objects/Pirelli_WINCC/UI/Screens/TRENDS_NYLON_GRAPH"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
@@ -12534,7 +12574,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 370.0
-- Name: TRENDS_NYLON
+- Name: TRENDS_NYLON_GRAPH
   Id: g=780710313905968686a6286912e9b705
   Supertype: Panel
   ReferenceType: HasComponent
@@ -12850,7 +12890,7 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-- Name: Building_Stitching
+- Name: BUILDING_STRICH
   Id: g=b673cb150b041bbcb1fd06315fb9ad3d
   Supertype: Screen
   ReferenceType: HasComponent
@@ -15989,7 +16029,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 9.0
+          Value: 10.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
